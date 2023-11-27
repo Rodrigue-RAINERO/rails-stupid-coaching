@@ -13,3 +13,64 @@
  *= require_tree .
  *= require_self
  */
+
+.you, .coach {
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-left: rgb(207, 207, 207) solid;
+  border-width: 5px;
+}
+
+.coach {
+  background-color: rgb(255, 255, 220);
+}
+
+.you p, .coach p {
+  margin: 0;
+}
+
+.answer a {
+  text-decoration: none;
+  padding: 15px 20px;
+}
+
+.answer a:hover {
+  background-color: #2ca7ff;
+  color: white;
+}
+
+.answer a, .answer a:hover {
+  border-radius: 10px;
+  font-weight: 500;
+  transition: 1s ease;
+}
+
+.you p, .coach p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.answer {
+  box-shadow: black;
+}
+
+.coach-answer {
+  font-weight: 500;
+}
+
+.input .btn {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  font-weight: 500;
+}
+
+.input .text {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  border-color: rgb(234, 234, 234);
+  width: 220px;
+}
